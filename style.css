@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Roboto Slab';
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 3rem;
+    color: #dbb9b9;
+    font-weight: 800;
+    cursor: pointer;
+    transition:0.5s ease;
+}
+.logo:hover{
+    transform:scale(1.1);
+}
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition:0.3s ease;
+    border-bottom:3px solid transparent;
+}
+nav a:hover, nav a.active{
+    color: #dbb9b9;
+    border-bottom:3px solid #dbb9b9;
+}
+section{
+    min-height: 100vh;
+    padding:5rem 9% 5rem 9%;
+}
+.home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:8rem;
+    background-color: black;
+}
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1.5;
+    font-family: 'Roboto Slab';
+}
+span{
+    color:#f11a1a
+}
+.home-content h3{
+    font-size:4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.home-content p{
+    font-size:1.5rem;
+    line-height: 1.5;
+}
+.home img{
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(87, 84, 84);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h4,footer p{
+    font-weight: 600;
+    line-height: 10px;
+}
+footer img{
+    width: 4rem;
+    border-radius:10px;
+}

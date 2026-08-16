@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Michroma&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Projects</title>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Roboto Slab';
+    }
+    body{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    }
+    nav a{
+    font-size: 1rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 300;
+    transition:0.3s ease;
+    border-bottom:3px solid transparent;
+    margin-left:100px;
+}
+nav a:hover, nav a.active{
+    color: #dbb9b9;
+    border-bottom:3px solid #dbb9b9; 
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(87, 84, 84);
+    height: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h4,footer p{
+    font-weight: 600;
+    line-height: 20px;
+    padding-top:0;
+}
+footer img{
+    height: 25px;
+    width: 25px;
+    border-radius:10px;
+    margin-bottom: 10px;
+}
+h1, h2 {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    position: relative;
+}
+h1 {
+    font-size: 2.8rem;
+    color: #d48a8a;
+    text-shadow: 0 0 15px rgba(219, 185, 185, 0.5);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex; 
+}
+.card{
+     display: flex;
+        flex-direction: column;
+            background-color: rgb(63, 60, 60);
+            padding: 30px;
+             width: 300px;
+             margin-left:250px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        font-weight: 500;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid white;
+}
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+}
+h2{
+    font-size: 2rem;
+    color: #af6c6c;
+    margin-top: 20px;
+}
+h4{
+    text-decoration: underline;
+    font-weight: 900;
+}
+button{
+    color: white;
+    font-weight: 600;
+    background-color: #681717;
+    border-radius: 10px;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+    
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+    <center><h1>Welcome to Project's section!</h1> <br><br></center>
+    <div class="container">
+        <div class="box">
+            <div class="card">
+                <h2>DeadlineX</h2><br>
+                <h4>Short Description</h4>
+                <p>A deadline-focused platform designed to help students discover, save, track, and apply for jobs, internships, and hackathons. The project focuses on helping students manage opportunities and never miss important deadlines</p><br>
+                <h4>Technologies Used</h4>
+                <p>React, TypeScript, Vite, HTML, CSS, JavaScript</p><br>
+                <h4>Project Status</h4>
+                <p>Deployed</p><br>
+                <button onclick="">Visit</button>
+            </div>
+            <div class="card">
+                <h2>StudyMate AI</h2>
+                <h4>Short Description</h4>
+                <p>A centralized student platform designed to bring useful academic resources and tools together in one place. It includes features such as study planning, quizzes, flashcards, career resources, and other student-focused utilities</p>
+                <h4>Technologies Used</h4>
+                <p>HTML, CSS, JavaScript</p>
+                <h4>Project Status</h4>
+                <p>Completed</p>
+                <button onclick="">Visit</button>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+            <div class="card">
+                <h2>Student OneSpot</h2>
+                <h4>Short Description</h4>
+                <p>A student-focused web platform that brings commonly needed student tools and resources together in one place. The project includes features for tasks, planning, expenses, and other student activities</p>
+                <h4>Technologies Used</h4>
+                <p>HTML, CSS, JavaScript</p>
+                <h4>Project Status</h4>
+                <p>Completed</p>
+                <button onclick="">Visit</button>
+            </div>
+            <div class="card">
+                <h2>Nashik Tourism Web</h2>
+                <h4>Short Description</h4>
+                <p>A tourism web platform created to showcase Nashik's top tourist destinations. The website provides information about the city's best places to visit along with Google Maps locations, images, galleries, and other useful tourism information</p>
+                <h4>Technologies Used</h4>
+                <p>HTML, CSS, JavaScript</p>
+                <h4>Project Status</h4>
+                <p>Completed</p>
+                <button onclick="">Visit</button>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <footer>
+        <br>
+        <h4>Soham kulkarni</h4>
+        <p> &copy; 2026 Soham. All rights reserved.</p>
+        <br>
+        <div class="footer-div">
+        <a href="https://www.linkedin.com/in/soham-kulkarni-3633ba313?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="linkedin.png" class="footer-icons" alt=""></a>
+        <a href="https://github.com/soham-klk"><img src="github.jpg" class="footer-icons" alt=""></a>
+        <a href="mailto:soham.dginternshub@gmail.com"><img src="gmail.jpg" class="footer-icons" alt=""></a>
+            </div>
+    </footer>
+</body>
+</html>
